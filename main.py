@@ -9,3 +9,6 @@ class FinanceTable:
 
     #def returnTable(self):
     #  print(f"")
+
+
+    ##ljksdbfkldsnf;lqnjm'wp;fm;s
