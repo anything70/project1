@@ -1,16 +1,33 @@
-.center {
+body {
+  background-color: white;
+  font-family: "Roboto";
+}
+
+form {
   text-align: center;
-  margin: auto;
+  line-height: 1.7;
+  margin: 2vw;
   width: 250px;
-  border: 3px solid black;
+  border: 3px solid #141414;
   padding: 15px;
+  border-radius: 1vw;
 }
 
 h1 {
+  color: #141414;
   top: 0%;
   left: 0%;
-  background-color:aliceblue;
-  padding: 3%;
-  border-bottom-style: solid;
-  border-color: cornflowerblue;
+  background-color:#e7d8c5;
+  padding: 2%;
+  font-size: 2em;
+}
+
+.button {
+  background-color: #e7d8c5; /* Sets button color */
+  color: #141414; /* Text color */
+  padding: 10px 20px; /* Adjusts size */
+  font-size: 16px; /* Changes text size */
+  border: none;
+  border-radius: 6px; /* Rounded corners */
+
 }
