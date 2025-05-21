@@ -20,6 +20,8 @@ h1 {
   background-color:#e7d8c5;
   padding: 2%;
   font-size: 2em;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .button {
