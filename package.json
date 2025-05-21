@@ -1,0 +1,25 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anything70/project1.git"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anything70/project1/issues"
+  },
+  "homepage": "https://github.com/anything70/project1#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+  
+}
