@@ -1,5 +1,5 @@
 
-/*import sqlite3 from "sqlite3";
+import sqlite3 from "sqlite3";
 
 const db = new sqlite3.Database("finances.db",sqlite3.OPEN_READWRITE, (err)=> {
     if (err) return console.error(err.message);
@@ -10,7 +10,7 @@ db.run(sql)
 //creates database and doesn't return error if already exists
 
 sql = "INSERT INTO finances (name, value) values (?,?)"
-*/
+
 
 
 document.addEventListener('DOMContentLoaded', function() { /* wait for the whole html to load before running js*/
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() { /* wait for the whole
 
 });
 
-/*
+
 db.run(sql,[test, 1], (err)=> {
     if (err) return console.error(err.message);
 })
@@ -45,4 +45,3 @@ db.all(sql, [], (err, rows) => {
         console.log(row);
     });
 });
-*/
