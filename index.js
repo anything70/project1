@@ -10,19 +10,26 @@ db.run(sql)
 
 sql = "INSERT INTO finances (name, value) values (?,?)"
 */
-console.log("JS loaded")
-const form = document.getElementById("financeForm");
-if (!form) {
-    console.error("Form not found");
-}
-document.getElementById("financeForm").addEventListener("submit", function(){
-    e.preventDefault();
-    const name = document.getElementById("name").value;
-    const amount = document.getElementById("amount").value;
-    console.log(name, amount)
-})
 
 
+document.addEventListener('DOMContentLoaded', function() { /* wait for the whole html to load before running js*/
+    console.log("JS loaded")
+    const form = document.getElementById("financeForm");
+
+
+    if (!form) {
+        console.error("Form not found");
+    }
+    else{
+        form.addEventListener("submit", function(e){
+            console.log("this worked!")
+            e.preventDefault();
+            const name = document.getElementById("name").value;
+            const amount = document.getElementById("amount").value;
+            console.log(name, amount);
+        })}
+
+});
 
 /*
 db.run(sql,[test, 1], (err)=> {
