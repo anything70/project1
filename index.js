@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() { /* wait for the whole
 
 
 db.run(sql,[test, 1], (err)=> {
-    if (err) return console.error(err.message);
+    if (err){ return console.error(err.message);}
 })
 //inserts list values into database
 
