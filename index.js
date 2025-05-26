@@ -10,8 +10,6 @@ db.run(sql)
 //creates database and doesn't return error if already exists
 
 sql = "INSERT INTO finances (name, value) values (?,?)"
-<<<<<<< HEAD
-=======
 */
 
 
@@ -35,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function() { /* wait for the whole
 });
 
 /*
->>>>>>> b591a7ba392c264e8ec79fffeb24c9779544ac31
 db.run(sql,[test, 1], (err)=> {
     if (err) return console.error(err.message);
 })
